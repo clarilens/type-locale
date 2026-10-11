@@ -1,0 +1,22 @@
+{
+    "name": "clarilens/type-locale",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Clarilens\\TypeLocale\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farkhat Sakibaev",
+            "email": "farkhatlukum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "scripts": {
+        "test": "php tests/smoke.php"
+    }
+}
